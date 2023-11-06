@@ -1,0 +1,13 @@
+.bar2{
+    border: 2px solid red;
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.box{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}

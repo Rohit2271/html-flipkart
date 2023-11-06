@@ -1,0 +1,159 @@
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    /* position:static; */
+} 
+.myNav{
+    background-color: rgb(73, 73, 235);
+    padding: 10px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+#logo{
+    height:25px;
+    width: 80px;
+}
+.form-control{
+    padding: 0 16px;
+    height: 6vh;
+    margin: 0px 16px;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navb{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) ;
+    row-gap: 10px;
+    margin: 5px 0px -50px 100px;
+    padding: 20px 0px;
+    font-weight: 500;
+    height: auto;
+    width: 98%;
+    
+}
+.navb a{
+    text-decoration: none;
+}
+.navb div a:hover{
+    color: red;
+    cursor: pointer;
+}
+.fashion{
+    border: 2px ;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+.mobile{
+    border: 2px;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+.grocery{
+    border: 2px;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+.electronics{
+    border: 2px;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+.travel{
+    border: 2px;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+.beauty{
+    border: 2px;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+.carousel-item{
+    height: 40vh;
+    width: 100vw;
+}
+.category{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px ;
+    box-shadow: 10px 10px 10px white;
+    overflow-x: scroll;
+    
+}
+.category .item{
+    height: 200px;
+    width: 400px;
+    font-size: larger;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.category .item input{
+    margin:20px ;
+    height: 50px;
+    width: 100px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: red;
+}
+@media screen and (max-width:500px) {
+    /* .mynav{
+        width: 100%;
+    } */
+    .form-control{
+        width:100%;
+        margin: 0;
+        
+    }
+    .search{
+        display: none;
+    }
+    /* *{
+        height: auto;
+        width: 100%;
+        
+    } */
+    .navb{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+
+    }
+    .category .item{
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    
+    }
+
+    
+
+}
